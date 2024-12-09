@@ -11,13 +11,16 @@ package com.mesbah.javaissuessolving;
 public class JavaIssuesSolving {
 
     public static void main(String[] args) {
-        TargetSumByBinarySearch obj = new TargetSumByBinarySearch();
-        boolean flag = obj.ifTwoSumExists();
-        if(flag == true){
-            System.out.println("Target sum exists");
-        } else {
-            System.out.println("Target sum doesn't exist");
-        }
+        CountEqualValuePairs obj = new CountEqualValuePairs();
+        int sum = obj.countEqualValuePairss();
+        System.out.println("Number of equal-value-pairs: " + sum);
+//        TargetSumByBinarySearch obj = new TargetSumByBinarySearch();
+//        boolean flag = obj.ifTwoSumExists();
+//        if(flag == true){
+//            System.out.println("Target sum exists");
+//        } else {
+//            System.out.println("Target sum doesn't exist");
+//        }
 //        TwoSumProblem obj = new TwoSumProblem();
 //        boolean flag = obj.ifTwoSumExists();
 //        if (flag == true) {

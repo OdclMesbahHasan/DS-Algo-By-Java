@@ -11,8 +11,10 @@ package com.mesbah.javaissuessolving;
 public class JavaIssuesSolving {
 
     public static void main(String[] args) {
-        StockBuyAndSellProblem stockBuyAndSellProblem = new StockBuyAndSellProblem();
-        System.out.println(" maximum profit possible by buying and selling the stocks on different days : " + stockBuyAndSellProblem.maximumProfitThatCanBeAchieved());
+        MaximumSubArraySum maximumSubArraySum = new MaximumSubArraySum();
+        System.out.println("Maximum Sub Array Sum Of the Array Is: " + maximumSubArraySum.maximumSubArraySum());
+//        StockBuyAndSellProblem stockBuyAndSellProblem = new StockBuyAndSellProblem();
+//        System.out.println(" maximum profit possible by buying and selling the stocks on different days : " + stockBuyAndSellProblem.maximumProfitThatCanBeAchieved());
 //        CountEqualValuePairs obj = new CountEqualValuePairs();
 //        int sum = obj.countEqualValuePairss();
 //        System.out.println("Number of equal-value-pairs: " + sum);

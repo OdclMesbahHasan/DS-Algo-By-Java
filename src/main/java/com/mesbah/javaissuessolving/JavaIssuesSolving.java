@@ -11,9 +11,11 @@ package com.mesbah.javaissuessolving;
 public class JavaIssuesSolving {
 
     public static void main(String[] args) {
-        CountEqualValuePairs obj = new CountEqualValuePairs();
-        int sum = obj.countEqualValuePairss();
-        System.out.println("Number of equal-value-pairs: " + sum);
+        StockBuyAndSellProblem stockBuyAndSellProblem = new StockBuyAndSellProblem();
+        System.out.println(" maximum profit possible by buying and selling the stocks on different days : " + stockBuyAndSellProblem.maximumProfitThatCanBeAchieved());
+//        CountEqualValuePairs obj = new CountEqualValuePairs();
+//        int sum = obj.countEqualValuePairss();
+//        System.out.println("Number of equal-value-pairs: " + sum);
 //        TargetSumByBinarySearch obj = new TargetSumByBinarySearch();
 //        boolean flag = obj.ifTwoSumExists();
 //        if(flag == true){
